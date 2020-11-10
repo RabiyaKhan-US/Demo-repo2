@@ -1,0 +1,14 @@
+$ git push origin master
+remote: Permission to rajunerugatti123/secondrepo.git denied to nerugattiraju1234.
+fatal: unable to access 'https://github.com/rajunerugatti123/secondrepo.git/': The requested URL returned error: 403
+i will get this type of error. how it can solve
+
+
+/////// Solution
+
+The error may be, the computer has saved a git username and password so if you shift to another account the error 403 will appear. Below is the solution
+For Windows you can find the keys here:
+
+control panel > user accounts > credential manager > Windows credentials > Generic credentials
+
+Next, remove the Github keys.
